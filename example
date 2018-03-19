@@ -1,0 +1,10 @@
+<exp> = <exp> <opsuma> <term>
+<exp> = <term> 
+<term> = <term> <opmult> <factor> 
+<term> = <factor>
+<factor> = ( <exp> ) 
+<factor> = i
+<opsuma> = +
+<opsuma> = -
+<opmult> = *
+<opmult> = /
